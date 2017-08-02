@@ -1,0 +1,18 @@
+{
+    "Comment": "Update record to reflect new IP address of green deployment",
+    "Changes": [
+        {
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+                "Name": "api.devops-recipes.com.",
+                "Type": "A",
+                "TTL": 60,
+                "ResourceRecords": [
+                    {
+                        "Value": "52.23.237.64"
+                    }
+                ]
+            }
+        }
+    ]
+}
