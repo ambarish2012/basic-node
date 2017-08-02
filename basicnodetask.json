@@ -5,11 +5,17 @@
       "name": "basic-node",
       "image": "679404489841.dkr.ecr.us-east-1.amazonaws.com/docker-basic-node:ca37de98f4633acdfc7873d2eb608acc24c200fd",
       "memory": 400,
-	     "portMappings": [
+	    "portMappings": [
           {
             "hostPort": 80,
             "containerPort": 80,
             "protocol": "tcp"
+          }
+      ],
+      "environment": [
+          {
+              "name": "PORT",
+              "value": "80"
           }
       ],
       "essential": true

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.111" tests="10" failures="0">
+  <testsuite name="Root Suite" timestamp="2017-08-01T21:58:18" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="/ route" timestamp="2017-08-01T21:58:18" tests="0" file="/Users/ambarish/Desktop/samples/basic-node/tests/index.spec.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="GET /" timestamp="2017-08-01T21:58:18" tests="1" file="/Users/ambarish/Desktop/samples/basic-node/tests/index.spec.js" failures="0" time="0.05">
+    <testcase name="/ route GET / should respond with content" time="0.05" classname="should respond with content">
+    </testcase>
+  </testsuite>
+  <testsuite name="/name route" timestamp="2017-08-01T21:58:18" tests="0" file="/Users/ambarish/Desktop/samples/basic-node/tests/name.spec.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="GET /name" timestamp="2017-08-01T21:58:18" tests="1" file="/Users/ambarish/Desktop/samples/basic-node/tests/name.spec.js" failures="0" time="0.008">
+    <testcase name="/name route GET /name should respond with full name" time="0.008" classname="should respond with full name">
+    </testcase>
+  </testsuite>
+  <testsuite name="PUT /name" timestamp="2017-08-01T21:58:18" tests="3" file="/Users/ambarish/Desktop/samples/basic-node/tests/name.spec.js" failures="0" time="0.037000000000000005">
+    <testcase name="/name route PUT /name should update first and last name" time="0.023" classname="should update first and last name">
+    </testcase>
+    <testcase name="/name route PUT /name should ignore empty names" time="0.012" classname="should ignore empty names">
+    </testcase>
+    <testcase name="/name route PUT /name should respond with the new full name" time="0.002" classname="should respond with the new full name">
+    </testcase>
+  </testsuite>
+  <testsuite name="/properties route" timestamp="2017-08-01T21:58:18" tests="0" file="/Users/ambarish/Desktop/samples/basic-node/tests/properties.spec.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="GET /properties" timestamp="2017-08-01T21:58:18" tests="1" file="/Users/ambarish/Desktop/samples/basic-node/tests/properties.spec.js" failures="0" time="0.003">
+    <testcase name="/properties route GET /properties should include server ip and datetime by default" time="0.003" classname="should include server ip and datetime by default">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST /properties" timestamp="2017-08-01T21:58:18" tests="3" file="/Users/ambarish/Desktop/samples/basic-node/tests/properties.spec.js" failures="0" time="0.011">
+    <testcase name="/properties route POST /properties should ignore properties with empty keys or values" time="0.005" classname="should ignore properties with empty keys or values">
+    </testcase>
+    <testcase name="/properties route POST /properties should add new or update existing properties" time="0.003" classname="should add new or update existing properties">
+    </testcase>
+    <testcase name="/properties route POST /properties should respond with ok" time="0.003" classname="should respond with ok">
+    </testcase>
+  </testsuite>
+  <testsuite name="/users route" timestamp="2017-08-01T21:58:18" tests="0" file="/Users/ambarish/Desktop/samples/basic-node/tests/users.spec.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="GET /users" timestamp="2017-08-01T21:58:18" tests="1" file="/Users/ambarish/Desktop/samples/basic-node/tests/users.spec.js" failures="0" time="0.002">
+    <testcase name="/users route GET /users should respond with content" time="0.002" classname="should respond with content">
+    </testcase>
+  </testsuite>
+</testsuites>
