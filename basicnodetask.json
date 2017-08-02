@@ -1,5 +1,6 @@
 {
-  "containerDefinitions": [
+  "networkMode" : "host",
+	"containerDefinitions": [
     {
       "name": "basic-node",
       "image": "679404489841.dkr.ecr.us-east-1.amazonaws.com/docker-basic-node:ca37de98f4633acdfc7873d2eb608acc24c200fd",
