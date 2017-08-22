@@ -1,5 +1,5 @@
 jobs:
-  - name: basicNodeRunCI
+  - name: basic-node_runCI
     type: runCI
     steps:
       - IN: gitRepoResource
