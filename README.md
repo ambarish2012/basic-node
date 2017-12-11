@@ -1,1 +1,1 @@
-Basic node application
+Basic Node.js application
