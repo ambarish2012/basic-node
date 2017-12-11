@@ -1,6 +1,0 @@
-resources:
-  - name:           gitRepoResource
-    type:           gitRepo
-    integration:    github
-    pointer:
-      sourceName: ambarish2012/basic-node
