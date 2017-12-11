@@ -1,1 +1,1 @@
-Basic Node.js application
+Basic Node.js application sample
